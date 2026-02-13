@@ -5,6 +5,7 @@ Scientific discovery using agentic AI
 
 ```
 ssh-keygen -t ed25519
+
 type %USERPROFILE%\.ssh\id_ed25519.pub
 ```
 
@@ -18,5 +19,19 @@ Guide: https://docs.runpod.io/tutorials/pods/run-ollama
 
 ```
 apt update && apt install -y lshw zstd
-(curl -fsSL https://ollama.com/install.sh | sh && ollama serve > ollama.log 2>&1) &
+(curl -fsSL https://ollama.com/install.sh | sh && 
+
+ollama serve > ollama.log 2>&1) &
+```
+
+## Install Claude Code
+
+Guide: https://code.claude.com/docs/en/setup
+
+```
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
+
+ollama launch claude
 ```
