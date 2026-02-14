@@ -45,9 +45,8 @@ Guide: https://docs.runpod.io/tutorials/pods/run-ollama
 
 ```
 apt update && apt install -y lshw zstd
-(curl -fsSL https://ollama.com/install.sh | sh && 
 
-ollama serve > ollama.log 2>&1) &
+(curl -fsSL https://ollama.com/install.sh | sh && ollama serve > ollama.log 2>&1) &
 ```
 
 ### Install Claude Code
@@ -60,4 +59,14 @@ curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del in
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
 
 ollama launch claude
+```
+
+### Install OpenCode
+
+Guide: 
+
+```
+ollama launch opencode
+
+ollama launch opencode --model glm-4.7-flash
 ```
