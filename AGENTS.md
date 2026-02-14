@@ -2,7 +2,7 @@ AGENTS.md
 # Science Discovery AI - Agent Guidelines
 
 ## Project Overview
-Scientific discovery using agentic AI with GPU-accelerated ML workflows. Python project for geophysical data analysis, ML modeling, and scientific visualization.
+Scientific discovery using agentic AI with GPU-accelerated ML workflows.
 
 ## Build, Lint, and Test Commands
 
@@ -169,7 +169,6 @@ No CI/CD configuration is defined. This project focuses on local development and
 Key dependencies (from pyproject.toml):
 - PyTorch: GPU-accelerated deep learning
 - XGBoost: GPU-accelerated gradient boosting
-- cuML/cuPy: GPU-accelerated ML and numerical computing
 - pandas/geopandas: Data and geospatial analysis
 - matplotlib/cartopy: Scientific visualization
 - scikit-learn: Classical ML algorithms
