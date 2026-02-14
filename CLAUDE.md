@@ -4,23 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Scientific discovery using agentic AI. Python project targeting scientific/ML workflows with PyTorch.
+Scientific discovery using agentic AI with sandboxing capabilities. Python project for scientific/ML workflows (not limited to PyTorch).
 
-## Package Management
+## Instructions
 
-Uses `uv` for dependency management. Python 3.10+.
-
-```bash
-# Install dependencies
-uv sync
-
-# Add new dependency
-uv add <package>
-
-# Run Python scripts
-uv run python main.py
-uv run python test.py
-```
+1. Understand user's intent and write a Python script to answer the intent. 
+2. Put scripts inside folder `./.sandbox` and run them from that folder
+3. Use `uv run python ...` to run Python scripts
+4. If you need to install new libraries, run `uv add <package>`
 
 ## Environment Setup
 
