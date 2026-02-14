@@ -5,6 +5,14 @@ Agentic scientific discovery with your favorite AI-assisted coding CLIs (Claude 
 
 ## Motivation
 
+Companies are burning dollars investing on agentic AI tools to accelerate scientific discovery of new proteins and new materials. What if we can build an agentic scientific discovery on coding assistants at no-cost? What if coding assistants can create 1,000+ lines of codes of science research, the same amount as it creates to accelerate software development (so-called vibe coding)?
+
+Software engineers don't need GPU to build powerful softwares, but researchers need GPU to build powerful research. The key of agentic scientific discovery is GPU + vibe coding + open source LLM, as sandbox for experimenters. 
+
+This repository tries to prove this. 
+
+Read more: 
+
 <details>
   <summary><b>Agentic AI in scientific discovery</b></summary>
 
