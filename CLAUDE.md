@@ -12,6 +12,8 @@ Scientific discovery using agentic AI with sandboxing capabilities. Python proje
 2. Put scripts inside folder `./.sandbox` and run them from that folder
 3. Use `uv run python ...` to run Python scripts
 4. If you need to install new libraries, run `uv add <package>`
+5. You have access to GPU, so everytime you run ML/neural network, run using GPU or CUDA setup
+6. If you create visualization, put your plots inside `.output`
 
 ## Environment Setup
 

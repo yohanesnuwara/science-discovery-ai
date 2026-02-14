@@ -208,3 +208,5 @@ __marimo__/
 
 # Other
 .sandbox/
+.input/
+.output/
