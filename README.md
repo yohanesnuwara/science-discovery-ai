@@ -1,5 +1,5 @@
-# science-discovery-ai
-Scientific discovery using agentic AI
+# SciSandboxAI
+Agentic scientific discovery with your favorite AI-assisted coding CLIs (Claude Code or OpenCode) running on Ollama and LLMs at no-cost. 
 
 <img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/4f17dee2-3e67-49f2-8a18-1a681f3585e8" />
 
