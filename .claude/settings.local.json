@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(lspci:*)",
+      "Bash(nvidia-smi:*)",
+      "Bash(uv run python:*)",
+      "Bash(uv add:*)",
+      "Bash(tee:*)"
+    ]
+  }
+}

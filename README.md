@@ -49,6 +49,30 @@ Copy paste the SSH key in user setting in Runpod
 
 Deploy a pod, open VS code, CTRL+P Remote-SSH Connect to Host (or install `Remote - SSH` from extension if not installed yet), paste the SSH TCP from Runpod and connect. 
 
+### Clone this repository
+
+```
+git clone https://github.com/yohanesnuwara/science-discovery-ai.git
+```
+
+### Install UV
+
+UV is used to manage packages needed for the AI sandbox
+
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+source $HOME/.local/bin/env
+```
+
+Then activate the virtual environment and sync 
+
+```
+source .venv/bin/activate
+
+uv sync
+```
+
 ### Install Ollama
 
 Guide: https://docs.runpod.io/tutorials/pods/run-ollama
@@ -76,7 +100,7 @@ ollama launch claude
 Guide: 
 
 ```
-ollama launch opencode
+curl -fsSL https://opencode.ai/install | bash
 
 ollama launch opencode --model glm-4.7-flash
 ```
