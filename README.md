@@ -102,7 +102,17 @@ Guide:
 ```
 curl -fsSL https://opencode.ai/install | bash
 
+source ~/.bashrc
+
 ollama launch opencode --model glm-4.7-flash
+```
+
+### Spin up service in Runpod
+
+Port number must be set in Runpod
+
+```
+opencode web --hostname 0.0.0.0 --port 4090
 ```
 
 ## Use cases
