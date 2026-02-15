@@ -104,3 +104,22 @@ curl -fsSL https://opencode.ai/install | bash
 
 ollama launch opencode --model glm-4.7-flash
 ```
+
+## Use cases
+
+SciSandboxAI has been tested for several use cases:
+
+<details>
+  <summary><b>Earthquake probability prediction</b></summary>
+
+  The next earthquake is (almost impossible) to predict. However, there may be possible approach. Here, 10,000 records of global eartquake for the last 10 years, and global fault coordinate are downloaded. Using this data, moment rate, stress drop, and stress accumulation are calculated. Using the calculated parameters, 
+  statistical (Bayesian inference) is used to calculate the probability of occurrence in the next 2, 5, and 10 years
+  for every plate; P(x,t) probability as function of space and time. 
+
+  <img width="5345" height="2336" alt="Image" src="https://github.com/user-attachments/assets/5db58682-6a8e-4823-9000-3e8d84dcc879" />
+
+  <img width="5345" height="2336" alt="Image" src="https://github.com/user-attachments/assets/e7edfa8b-04b5-467d-80ce-cca4bfd84b68" />
+
+  <img width="5345" height="2336" alt="Image" src="https://github.com/user-attachments/assets/942caf85-9984-4e55-a4e0-a4f156bed9ca" />
+
+</details>
