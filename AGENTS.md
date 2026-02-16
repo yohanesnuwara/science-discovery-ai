@@ -10,12 +10,16 @@ Scientific discovery using agentic AI with sandboxing capabilities. Python proje
 
 ## Essential Instructions
 
-1. **Understand user's intent** and write a Python script to answer the intent
+1. **Understand user's intent** Read user form in the `./templates/FORM.md` and understand it carefully what the user wants.
 2. **Put scripts inside folder `./.sandbox`** and run them from that folder
 3. **Use `uv run python ...`** to run Python scripts
 4. **If you need to install new libraries**, run `uv add <package>`
 5. **You have access to GPU**, so everytime you run ML/neural network, run using GPU or CUDA setup
 6. **If you create visualization or create any file**, put your plots or files inside `.output`
+
+## Prohibitions
+
+1. **Do not make a synthetic data** if you cannot parse the data. Tell truthfully you have issues with parsing data, or better solve it. 
 
 ## Running Scripts
 
