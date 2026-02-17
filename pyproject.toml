@@ -9,7 +9,10 @@ dependencies = [
     "catboost>=1.2.8",
     "cuml-cu12>=26.2.0",
     "cupy-cuda12x>=13.6.0",
+    "fpdf2>=2.8.5",
     "geopandas>=1.1.2",
+    "imbalanced-learn>=0.14.1",
+    "markdown>=3.10.2",
     "matplotlib>=3.10.8",
     "numpy>=2.2.6",
     "pandas>=2.3.3",
@@ -19,5 +22,6 @@ dependencies = [
     "shapely>=2.1.2",
     "torch>=2.10.0",
     "torchmetrics>=1.8.2",
+    "weasyprint>=68.1",
     "xgboost>=3.2.0",
 ]
