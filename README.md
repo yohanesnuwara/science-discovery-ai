@@ -120,7 +120,7 @@ opencode web --hostname 0.0.0.0 --port 4090
 SciSandboxAI has been tested for several use cases:
 
 <details>
-  <summary><b>**Geophysics**: Earthquake probability prediction (Model: GLM-4.7 Flash)</b></summary>
+  <summary><b>Geophysics 🌏 Earthquake probability prediction (Model: GLM-4.7 Flash)</b></summary>
 
   The next earthquake is (almost impossible) to predict. However, there may be possible approach. Here, 10,000 records of global eartquake for the last 10 years, and global fault coordinate are downloaded. Using this data, moment rate, stress drop, and stress accumulation are calculated. Using the calculated parameters, 
   statistical (Bayesian inference) is used to calculate the probability of occurrence in the next 2, 5, and 10 years
@@ -135,7 +135,7 @@ SciSandboxAI has been tested for several use cases:
 </details>
 
 <details>
-  <summary><b>**Macroeconomics**: Global financial crisis prediction (Model: Kimi K-2.5)</b></summary>
+  <summary><b>Macroeconomics 💵 Global financial crisis prediction (Model: Kimi K-2.5)</b></summary>
 
   Financial crises are rare events (only 65 episodes in 150 years) that are notoriously difficult to predict. Here, three databases (JST Macrohistory, ESRB Financial Crises, GPR Geopolitical Risk) are integrated—though country coding incompatibility limited ESRB data usage. Using credit growth, yield spreads, and macro-financial indicators from 18 advanced economies (1870-2020), an ensemble model (MLP+LSTM+Random Forest) with heavy regularization calculates the probability of crisis occurrence within the next 5 years; AUCPR 0.420 vs baseline 0.137 (+206% improvement). However, insufficient training data (only 7 matched countries from ESRB) and severe class imbalance (13.7% positive) limited generalization, with the model overfitting to Japan's 1990s crisis patterns. This is a good start for such data-driven macroeconomic research.
 
