@@ -9,6 +9,7 @@ dependencies = [
     "catboost>=1.2.8",
     "cuml-cu12>=26.2.0",
     "cupy-cuda12x>=13.6.0",
+    "dotenv>=0.9.9",
     "fpdf2>=2.8.5",
     "geopandas>=1.1.2",
     "imbalanced-learn>=0.14.1",
